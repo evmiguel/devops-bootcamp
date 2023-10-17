@@ -24,7 +24,12 @@ docker push 137.184.78.100:8083/java-app:1.0
 ```
 
 Note: setting environment variables with a .env file
-
+Change the host name
+gradle build
+```
+scp docker-compose.yaml root@143.198.113.128:/root
+docker push 137.184.78.100:8083/java-app:1.1
+```
 
 ```
 scp docker-compose.yaml root@143.198.113.128:/root
